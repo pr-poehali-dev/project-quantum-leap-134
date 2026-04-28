@@ -9,17 +9,17 @@ export function HeroSection7() {
         <div className="flex gap-12 lg:gap-16">
           <div className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:gap-8">
             <h1 id="hero-heading" className="text-foreground text-3xl lg:text-5xl font-bold flex-1">
-              Работай умнее, а не больше со <span className="text-primary">СмарФлоу</span>
+              Инженер по автоматизации — <span className="text-primary">профессия будущего</span> в Челябинской области
             </h1>
             <div className="flex-1 w-full flex flex-col gap-8">
               <p className="text-muted-foreground text-base lg:text-lg">
-                Автоматизируй рабочие процессы, упрощай задачи и работай в команде без лишних усилий. Все инструменты в одной платформе для максимальной продуктивности.
+                Одна из самых востребованных технических специальностей региона. Промышленный Урал активно внедряет автоматизацию производства — и специалисты нужны уже сейчас.
               </p>
 
               <div className="flex flex-col lg:flex-row gap-3">
-                <Button>Попробовать бесплатно</Button>
+                <Button>Узнать о профессии</Button>
                 <Button variant="ghost">
-                  Узнать больше
+                  Рынок труда
                   <ArrowRight className="ml-2" />
                 </Button>
               </div>
@@ -29,8 +29,8 @@ export function HeroSection7() {
         <div className="w-full overflow-hidden rounded-xl border bg-background shadow-xl">
           <AspectRatio ratio={16 / 9}>
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero%20image-BfDDyqA7gEJi5nCcYfKEbZOJR8pYrr.png"
-              alt="Интерфейс СмартФлоу со статистикой заказов и метриками доходов"
+              src="https://cdn.poehali.dev/projects/d4ed435f-d8db-4f6d-89cb-00ed2d2c0795/files/902b6fbf-65cf-46cb-a00a-509f3a19e5e8.jpg"
+              alt="Инженер по автоматизации за пультом управления на промышленном предприятии"
               className="object-cover w-full h-full"
             />
           </AspectRatio>

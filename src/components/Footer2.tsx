@@ -19,16 +19,16 @@ export function Footer2() {
                 aria-label="Навигация в подвале"
               >
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Главная
+                  О профессии
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  О нас
+                  Навыки
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Контакты
+                  Зарплаты
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                  Поддержка
+                  Работодатели
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Вопросы
@@ -39,7 +39,7 @@ export function Footer2() {
             <form
               className="flex flex-col md:flex-row gap-2 w-full md:w-auto"
               onSubmit={(e) => e.preventDefault()}
-              aria-label="Форма подписки на рассылку"
+              aria-label="Форма подписки на новости"
             >
               <Input
                 type="email"
@@ -49,7 +49,7 @@ export function Footer2() {
                 aria-required="true"
                 aria-label="Введите email для подписки"
               />
-              <Button type="submit" className="w-full md:w-auto" aria-label="Подписаться на рассылку">
+              <Button type="submit" className="w-full md:w-auto" aria-label="Подписаться на новости">
                 Подписаться
               </Button>
             </form>
@@ -59,7 +59,7 @@ export function Footer2() {
 
           <div className="flex flex-col lg:flex-row justify-between items-center gap-12 text-center">
             <p className="text-muted-foreground order-2 md:order-1">
-              2025 СмартФлоу. Все права защищены.
+              2025 ПрофиУрал. Востребованные профессии Челябинской области.
             </p>
 
             <nav
@@ -71,9 +71,6 @@ export function Footer2() {
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 Условия использования
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Настройки cookies
               </a>
             </nav>
           </div>

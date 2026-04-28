@@ -1,19 +1,17 @@
 import React from "react"
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Separator } from "@/components/ui/separator"
 
 const testimonials = [
   {
-    quote: "СмартФлоу помог нам экономить более 10 часов в неделю благодаря автоматизации рутинных задач. Теперь не представляем работу без него!",
-    author: "Анна Петрова",
-    role: "Маркетинг-директор, ТехноСтарт",
-    image: "https://github.com/shadcn.png",
+    quote: "Пришёл на ЧМК без опыта — через два года уже ведущий инженер. Автоматизация — это направление, куда предприятия вкладывают деньги прямо сейчас.",
+    author: "Алексей Романов",
+    role: "Ведущий инженер по автоматизации, ЧМК",
   },
   {
-    quote: "Этот инструмент изменил работу нашей удаленной команды. Автоматизация процессов работает просто невероятно.",
-    author: "Михаил Козлов",
-    role: "Основатель DigitalWave",
-    image: "https://github.com/shadcn.png",
+    quote: "На рынке Челябинска специалистов не хватает. Мы готовы рассматривать кандидатов с базовыми знаниями и обучать под наши задачи.",
+    author: "Наталья Кириллова",
+    role: "HR-директор, Завод КОНАР",
   },
 ]
 
@@ -24,10 +22,10 @@ export function TestimonialsSection5() {
         <div className="flex flex-col gap-12">
           <div className="flex flex-col gap-4 md:gap-5 max-w-xl text-center md:text-left">
             <p className="text-sm md:text-base font-semibold text-muted-foreground leading-[20px] md:leading-6">
-              Отзывы
+              Мнения
             </p>
             <h2 id="testimonial-title" className="text-3xl md:text-4xl font-bold">
-              Нам доверяют лучшие команды
+              Говорят специалисты и работодатели
             </h2>
           </div>
 
@@ -46,7 +44,6 @@ export function TestimonialsSection5() {
                   </p>
                   <div className="flex md:flex-row flex-col items-center gap-5">
                     <Avatar className="h-14 w-14">
-                      <AvatarImage src={testimonial.image || "/placeholder.svg"} alt={testimonial.author} />
                       <AvatarFallback>
                         {testimonial.author
                           .split(" ")
